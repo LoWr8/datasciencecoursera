@@ -5,6 +5,7 @@ wd<-getwd()
 ## read activity Labels
 activity_labels<- read_table2(paste0(wd,"/UCI HAR Dataset/activity_labels.txt"),col_names = c("Activity.Label","Activity"))
 
+## read feature labels
 Features<- read_table(paste0(wd,"/UCI HAR Dataset/features.txt"),col_names = FALSE)
 Features<- as.vector(as.data.frame(Features)[,1])
 Features<- str_split_fixed(Features," ",n=2)
