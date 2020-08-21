@@ -1,4 +1,10 @@
+This project consists of my solution of the 
 
+The associated codebook is found in the file "codebook.txt" and the associated script is found in "run_analysis.R".
+
+The script tidies and summarizes the original dataset.
+
+The original dataset is described below:
 
 ==================================================================
 Human Activity Recognition Using Smartphones Dataset
